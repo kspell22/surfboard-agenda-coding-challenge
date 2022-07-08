@@ -24,7 +24,7 @@ function NewTaskForm({ addTask, isEditing }) {
         <Form.Control type="text" className="input" value={taskName} onChange={e => setTaskName(e.target.value)} placeholder="Task Name" />
       </Form.Group>
       <Form.Group className="form-group">
-        <Form.Label><b>Time Time Limit</b></Form.Label>
+        <Form.Label><b>Time Limit</b></Form.Label>
         <Form.Control type="text" className="input" value={taskTime} onChange={e => setTaskTime(e.target.value)} placeholder="Estimated Time" />
       </Form.Group>
       <Form.Group className="form-group">
