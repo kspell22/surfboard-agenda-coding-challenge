@@ -15,7 +15,7 @@ function TaskItem({ index, task, markTask, removeTask, editTask, isEditing }) {
             </div>
           </div>
           <div className="button-group">
-            <Button className="button-action" variant="outline-success" size="sm" onClick={() => markTask(index)}>✓</Button>{' '}
+            <Button className="button-action" variant="outline-success" size="sm" onClick={() => markTask(index)}>✓</Button>
             <Button className="button-action" variant="outline-danger" size="sm" onClick={() => removeTask(index)}>✕</Button>
             <Button className="button-action" variant={isEditing ? "outline-info" : "outline-primary"} size="sm" onClick={() => editTask(index)}>{isEditing ? "save" : "edit"}</Button>
           </div>
