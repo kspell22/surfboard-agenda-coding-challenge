@@ -32,15 +32,15 @@ function UpdateTaskForm({
       <h4>Edit Task</h4>
       <Form.Group className="form-group">
         <Form.Label><b>Task Name</b></Form.Label>
-        <Form.Control type="text" id="edit-input" value={currentEditName} onChange={e => setTaskName(e.target.value)} placeholder={currentEditTask.title}/>
+        <Form.Control type="text" id="edit-input" value={currentEditName} onChange={e => setTaskName(e.target.value)} />
       </Form.Group>
       <Form.Group className="form-group">
         <Form.Label><b>Time Limit</b></Form.Label>
-        <Form.Control type="text" id="edit-input" value={currentEditTime} onChange={e => setTaskTime(e.target.value)} placeholder={currentEditTask.time} />
+        <Form.Control type="text" id="edit-input" value={currentEditTime} onChange={e => setTaskTime(e.target.value)} />
       </Form.Group>
       <Form.Group className="form-group">
         <Form.Label><b>Description</b></Form.Label>
-        <Form.Control as="textarea" id="edit-textarea" value={currentEditDescription} onChange={e => setTaskDescription(e.target.value)} placeholder={currentEditTask.description} />
+        <Form.Control as="textarea" id="edit-textarea" value={currentEditDescription} onChange={e => setTaskDescription(e.target.value)} />
       </Form.Group>
       <Button className="button-submit" variant="primary mb-3" type="submit">
         Save
