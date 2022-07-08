@@ -13,7 +13,6 @@ code {
 }
 
 .app {
-  /* padding: 30px; */
   background-color: rgb(255, 255, 255);
 }
 
@@ -162,7 +161,6 @@ code {
   grid-row: 1;
   justify-self: center;
   width: 100%;
-  /* padding: 40px 20px; */
   border: 1px solid rgba(0,0,0,.125);
   background-clip: border-box;
   border-radius: .25rem;
